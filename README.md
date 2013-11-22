@@ -1,13 +1,13 @@
 nodeprojects
 ============
 
-**** Hello World!
+*** Hello World! ***
 
 Run this program by navigating to the directory and typing node hello.js in terminal. (Node.js must be installed)
 
 To connect to the server, open another terminal window and type curl 127.0.0.1:3000/. Any connected clients will have 'Hello World!\n' written to their console.
 
-**** Chatter
+*** Chatter ***
 
 Run this program by navigating to the directory and typing node chatter.js in terminal. (Node.js must be installed)
 

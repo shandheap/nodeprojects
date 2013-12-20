@@ -8,6 +8,8 @@ chatServer.on('connection', function (client) {
 
 	client.write('Hi ' + client.name + '!\n')
 
+	console.log(client.name + ' has joined the conversation!')
+
 	clientList.push(client)
 
 	client.on('data', function (data) {
@@ -47,4 +49,4 @@ function broadcast(message, client) {
 
 chatServer.listen(3000)
 
-console.log('Server is listening on port 3000.')
+console.log('Server is listening at 127.0.0.1 port 3000.')
